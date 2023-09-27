@@ -19,7 +19,7 @@ func main() {
 
     client := greet.NewGreeterClient(conn)
 
-    name := "John"
+    name := "Mhdbashar"
     response, err := client.SayHello(context.Background(), &greet.HelloRequest{Name: name})
     if err != nil {
         log.Fatalf("Error calling SayHello: %v", err)
